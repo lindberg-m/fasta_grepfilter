@@ -32,7 +32,6 @@ def parse_fasta(fasta):
         if not line:
             return
 
-# General HOFs and decorators:
 
 # and_or(func_list, flag)
 #
