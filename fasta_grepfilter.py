@@ -24,7 +24,7 @@ def parse_fasta(fasta):
             if line[0] == ">":
                 break
 
-            seq += line
+            seq += line.strip("\n")
             line = fasta.readline()
 
         yield header, seq.strip("\n")
